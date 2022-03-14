@@ -1,0 +1,20 @@
+@import '../config/colors.css';
+
+.margetitle{
+  width: 280px;
+  position: absolute;
+  font-size: 4em;
+  font-weight: bold;
+  transform-origin: 0% 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--contrast);
+  white-space: nowrap;
+  transform: rotateZ(90deg);
+}
+
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  .margetitle{
+    font-size: 3em;
+  }
+}

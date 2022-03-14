@@ -1,0 +1,24 @@
+@import '../config/colors.css';
+
+.socialmedia{
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+  list-style-type: none;
+}
+.social li{
+  display: inline;
+}
+.iconlink{
+  color: var(--dark-main);
+  transition: transform 1s, color 1s;
+}
+.iconlink:hover{
+  transform: rotateY(360deg);
+  color: var(--light-main);
+}
